@@ -10,15 +10,15 @@ Make sure that you have the Gatsby CLI program installed:
 npm install --global gatsby-cli
 ```
 
-And run from your CLI:
+And run from your CLI://创建一个项目
 ```sh
 gatsby new gatsby-example-site
 ```
 
-Then you can run it by:
+Then you can run it by://项目目录下运行
 ```sh
-cd gatsby-example-site
-gatsby develop
+gatsby develop      //开发环境
+gatsby build        //打包将public文件夹部署就行
 ```
 
 ## Deploy
